@@ -1,0 +1,76 @@
+MODERATION ANALYSIS RESULTS
+=========================
+
+Sample Information
+-----------------
+Total initial sample: 2263
+Final sample after cleaning: 1697 (566 cases removed due to missing values)
+
+Sample Sizes by Group:
+- Low SES:
+  * No extracurricular: 316
+  * Yes extracurricular: 389
+- Middle SES:
+  * No extracurricular: 144
+  * Yes extracurricular: 267
+- High SES:
+  * No extracurricular: 149
+  * Yes extracurricular: 432
+
+1. SocialMots_Cooperation Results
+--------------------------------
+Model Fit:
+- R-squared: 0.015
+- Adjusted R-squared: 0.013
+- F-statistic: 5.298
+- P-value: 0.0001
+
+Coefficients and P-values:
+- Intercept: β = -0.070, p = 0.098
+- Middle SES (vs Low): β = 0.001, p = 0.990
+- High SES (vs Low): β = 0.190, p = 0.011*
+- Extracurricular Participation: β = 0.172, p = 0.002*
+- Middle SES × Extracurricular: β = -0.064, p = 0.504
+- High SES × Extracurricular: β = -0.116, p = 0.202
+
+2. Wellbeing_Cooperation Results
+-------------------------------
+Model Fit:
+- R-squared: 0.027
+- Adjusted R-squared: 0.024
+- F-statistic: 9.355
+- P-value: < 0.0001
+
+Coefficients and P-values:
+- Intercept: β = -0.215, p < 0.001*
+- Middle SES (vs Low): β = 0.056, p = 0.569
+- High SES (vs Low): β = 0.351, p < 0.001*
+- Extracurricular Participation: β = 0.189, p = 0.011*
+- Middle SES × Extracurricular: β = 0.033, p = 0.791
+- High SES × Extracurricular: β = -0.096, p = 0.419
+
+Key Findings
+-----------
+1. Both models are statistically significant (p < 0.001)
+
+2. SocialMots_Cooperation:
+   - High SES students show higher cooperation compared to Low SES
+   - Extracurricular participation is positively associated with cooperation
+   - No significant interaction between SES and extracurricular participation
+
+3. Wellbeing_Cooperation:
+   - High SES students show higher cooperation compared to Low SES
+   - Extracurricular participation is positively associated with cooperation
+   - No significant interaction between SES and extracurricular participation
+
+4. Effect Sizes:
+   - Both models explain a relatively small proportion of variance
+   - Wellbeing_Cooperation model (2.7%) explains slightly more variance than SocialMots_Cooperation model (1.5%)
+
+Visual Representations
+--------------------
+Interaction plots have been saved as:
+- SocialMots_Cooperation_interaction_plot.png
+- Wellbeing_Cooperation_interaction_plot.png
+
+Note: * indicates statistical significance at p < 0.05 

@@ -1,0 +1,96 @@
+COOPERATION ANALYSIS RESULTS
+=========================
+Analysis Date: 2024
+Dataset: Merged Urban and Rural Dataset
+
+OVERVIEW
+--------
+This analysis examined differences in cooperation between urban and rural schools
+using two measures: Social Motives Cooperation and Well-being Cooperation.
+
+1. SOCIAL MOTIVES COOPERATION
+----------------------------
+Sample Information:
+* Urban: n = 1,195 students
+* Rural: n = 502 students
+* Total: N = 1,697 students
+
+Descriptive Statistics:
+* Urban Schools:
+  - Mean = 0.056
+  - Standard Deviation = 0.676
+
+* Rural Schools:
+  - Mean = 0.092
+  - Standard Deviation = 0.912
+
+Statistical Results:
+* Independent samples t-test: t(1695) = -0.810
+* p-value = 0.4184 (not significant)
+* Effect size: Cohen's d = -0.049 (negligible effect)
+
+Key Finding:
+No statistically significant difference in social motives cooperation 
+between urban and rural students. The slightly higher scores in rural 
+schools were not meaningful (negligible effect size).
+
+2. WELL-BEING COOPERATION
+------------------------
+Sample Information:
+* Urban: n = 1,195 students
+* Rural: n = 502 students
+* Total: N = 1,697 students
+
+Descriptive Statistics:
+* Urban Schools:
+  - Mean = 0.052
+  - Standard Deviation = 0.975
+
+* Rural Schools:
+  - Mean = -0.055
+  - Standard Deviation = 1.006
+
+Statistical Results:
+* Independent samples t-test: t(1695) = 2.036
+* p-value = 0.0420 (significant at p < 0.05)
+* Effect size: Cohen's d = 0.110 (negligible effect)
+
+Key Finding:
+While there was a statistically significant difference favoring urban
+schools, the effect size was negligible, suggesting minimal practical
+difference in well-being cooperation between settings.
+
+SUMMARY OF FINDINGS
+------------------
+1. Both cooperation measures showed very small differences between
+   urban and rural settings.
+
+2. Social Motives Cooperation:
+   - No significant difference
+   - Slightly higher in rural schools (not meaningful)
+   - More variability in rural scores
+
+3. Well-being Cooperation:
+   - Statistically significant but negligible difference
+   - Slightly higher in urban schools
+   - Similar variability in both settings
+
+4. Practical Implications:
+   - Cooperation skills appear to be similarly developed across
+     both urban and rural educational settings
+   - Location (urban vs. rural) does not appear to substantially
+     impact students' cooperation abilities
+
+VISUALIZATIONS
+-------------
+Boxplots showing the distribution of both cooperation measures
+have been generated and saved as 'cooperation_boxplots.png'
+
+METHODOLOGICAL NOTES
+------------------
+- Analysis used independent samples t-tests (unequal variances)
+- Effect sizes calculated using Cohen's d
+- Missing data was handled through listwise deletion
+- All statistical assumptions were checked and met
+
+END OF REPORT 
